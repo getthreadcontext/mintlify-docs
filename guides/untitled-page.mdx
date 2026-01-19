@@ -1,0 +1,58 @@
+---
+title: "Setting Up Your Environment"
+---
+
+This is the first installment in a multi-part series on Roblox script development, focusing on proper environment configuration. Many developers currently use inefficient workflows (such as coding directly within executors). This guide establishes a professional development setup.
+
+## Step 1: Executor Selection
+
+A reliable executor is the foundation of script development. Paid executors generally offer superior stability and features for those with available budget. Independent research is recommended resources available at www.reddit.com/r/robloxhackers provide detailed comparisons and community feedback.
+
+For this tutorial series, Volcano executor will be used as the primary example.
+
+## Step 2: Code Editor Installation
+
+Visual Studio Code (VSCode) serves as the recommended editor for this series due to its robust extension marketplace and accessibility for developers at all levels.
+
+**Installation Process:**
+1. Visit code.visualstudio.com
+2. Download the appropriate installer for your operating system
+3. Execute the installer and follow on-screen instructions
+
+## Step 3: VSCode Extension Configuration
+
+Extensions transform VSCode into a specialized Roblox development environment. Access the Extensions panel via the square icon in the left sidebar and install the following:
+
+**Roblox LSP For Exploit**
+ID: Itchino.robloxlsp-for-exploit  
+Source: marketplace.visualstudio.com/items?itemName=Itchino.robloxlsp-for-exploit  
+Functionality: IntelliSense, autocompletion, and syntax support for Roblox scripting
+
+**Universal Exploit Executor**
+ID: strawberrys.universal-exploit-executor  
+Source: marketplace.visualstudio.com/items?itemName=strawberrys.universal-exploit-executor  
+Functionality: Direct script execution from the editor interface
+
+Complete the configuration steps outlined in each extension's documentation after installation.
+
+## Step 4: Core Script Library
+
+Maintain organized access to these essential tools in your executor's scripts directory:
+
+**Hydroxide**  
+Repository: github.com/Upbolt/Hydroxide  
+Description: Advanced remote spy with constant and upvalue scanning capabilities. Note: Some executors experience compatibility issues. SimpleSpyV3 provides a reliable alternative.  
+
+**SimpleSpyV3 (Lightweight Alternative)**  
+Repository: github.com/infyiff/backup/blob/main/SimpleSpyV3/main.lua  
+Description: Streamlined remote spy with broad executor compatibility.  
+
+**Dex Explorer**  
+Repository: github.com/infyiff/backup/blob/main/dex.lua  
+This is the Infinite Yield version of Dex Explorer. There are many variants out there, but I prefer this one (Lazy Dex is also good). The choice isn't critical pick what works for you.
+
+## Advanced Recommendations
+
+**Version Control:** Git implementation is strongly advised for any substantive development project, enabling change tracking and collaborative workflows.
+
+**Lua Bundlers:** For complex projects requiring multiple modules, bundlers optimize the development process.
